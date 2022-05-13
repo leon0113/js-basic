@@ -7,3 +7,12 @@ for (var i = 0; i < numbers.length; i++) {
     }
     console.log(eachNumber);
 }
+
+
+for (var i = 0; i < numbers.length; i++) {
+    var num = numbers[i];
+    if (num > 100) {
+        break;
+    }
+    console.log(num);
+}
